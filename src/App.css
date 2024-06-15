@@ -1,0 +1,51 @@
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  font-style: normal;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 100;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+label {
+  margin-right: 10px;
+}
+
+input {
+  padding: 5px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+  padding: 5px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+span {
+  flex: 1;
+}

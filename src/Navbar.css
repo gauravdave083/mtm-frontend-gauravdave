@@ -1,0 +1,52 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #0070ED;
+  }
+  
+  .navbar-logo img {
+    width: 139px;
+    height: 87px;
+    object-fit: cover;
+    padding-left: 100px;
+  } 
+  
+  .links {
+    padding-left: 230px;
+  }
+  .navbar-links {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+  }
+  
+  .navbar-links li {
+    display: inline;
+  }
+  
+  .navbar-links a {
+    color: #000;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 0, 8px 
+  }
+  
+  .contact-button {
+    background-color: #0070ED;
+    height: 140;
+    width: 48;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 0.8px;
+  }
+  
+  .contact-button:hover {
+    background-color: #fff;
+  }
+  
